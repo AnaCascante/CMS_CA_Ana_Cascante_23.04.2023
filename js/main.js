@@ -1,4 +1,4 @@
-/*this is not right... but I need to do something!!!*/
+/*this is not right... but I need to do something!!! - this was from the local site- now I managed to deploy my site to host) :) 
 
 cosnt url="http://localhost:10017/shop/";
 
@@ -13,6 +13,8 @@ async function getProducts(){
 }
 
 getProducts();
+
+*/
 
 
 /* settings.json 

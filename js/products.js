@@ -51,7 +51,7 @@ fetch('https://rainydays23.learnbydoing.online/wp-json/wp/v2/products')
       image.alt = product.image.alt;
 
       // Create a title element and set its text content
-      const title = document.createElement('h3');
+      const title = document.createElement('h1');
       title.textContent = product.title.rendered;
 
       // Append the image and title elements to the thumbnail element
