@@ -1,5 +1,29 @@
+/*this is not right... but I need to do something!!!*/
+
+cosnt url="http://localhost:10017/shop/";
+
+async function getProducts(){
+    try{
+        const response= await fetch (url);
+        cosnt getResults= await response.json
+    }
+    catch (error){
+        console.log (error);
+    }
+}
+
+getProducts();
 
 
+/* settings.json 
+
+{
+    "liveServer.settings.port": 5501
+}
+*/
+
+
+/* ------------------------ for the contact form -----------------------------*/ 
 const userName = document.querySelector("name")
 const email =  document.querySelector("email")
 const message = document.querySelector("message")
