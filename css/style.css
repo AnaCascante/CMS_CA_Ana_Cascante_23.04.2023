@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Roboto mono", monospace;
+  
+    src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap)
+      format ("truetype");
+  }
+  
+  body {
+    font-family: "Roboto mono", Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .logo { 
+    width: fit-content; 
+    max-width: 30%; 
+  } 
+  
+  nav li { 
+    display: inline-block; 
+    color: white; 
+    text-decoration: dotted; 
+  } 
+  
+  header { 
+    background-color: #0a3641; 
+    color: white;
+  } 
+  
+  .active {
+    color: white;
+    padding: 30px 70px;
+  }
+  
+  .waterfall {
+    background-position: right;
+    width: fit-content;
+    max-width: 20%;
+  }
+  
+  button {
+    background-color: white;
+    border-color: #F2921D;
+    border-style: solid;
+    color: #F2921D;
+    font-size: large;
+    font-weight: bold;
+    border-width: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px 60px;
+    margin: 10px 60px;
+  }
+  
+  .buttonlist {
+    display:inline;
+    position:inherit;
+    margin: 50px 200px;
+  }
+  
+  
+  .downhillski , .mountingtent , .yellowkayak {
+    width: fit-content;
+    height: fit-content;
+    width: 350px;
+    height: 350px;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .yellowgirl {
+    width: fit-content;
+    height: fit-content;
+    width: 400px;
+    height: 300px;
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 50%;
+  }
+  
+  .girltopmountain {
+    width: fit-content;
+    height: fit-content;
+    width: 150px;
+    height: 150px;
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 100%;
+  }
+  
+  /*create 5 columns that floats next to each other*/
+  .gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grip-gap: 5 px
+  }
+  
+  /*clear floats after the columns*/
+  .column:after {
+    content;
+    display: table;
+    clear: both; 
+  }
+  
+  .jackets {
+    width: fit-content;
+    height: fit-content;
+    width: 150px;
+    height: 200px;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+    padding: auto;
+  }
+  
+  
+    
+  .jacketschoice {
+    display:inline;
+    position:inherit;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .contact {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    max-width: 950px;
+    margin: 0 auto
+  }
+  
+  .orangejacket-1{
+    display:inline-flex
+    -moz-grid-line
+  }
+  .sendform label {
+    display: block;
+  }
+  
+  .footer {
+    display: inline-block;
+  }
+  
+  .orangejacket {
+    width: fit-content;
+    height: fit-content;
+    width: 400px;
+    height: 300px;
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 50%;
+  }
+  
+  .girllake {
+    width: fit-content;
+    height: fit-content;
+    width: 400px;
+    height: 300px;
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 50%;
+  }
+  
+  .addtocart{
+    font-size: 60px;
+    padding: auto;
+  }
+  
+  #shoppingcart {
+    background-color: #F2921D;
+  }
+  
+  .orangejacket2 {
+    width: fit-content;
+    height: fit-content;
+    width: 200px;
+    height: 300px;
+    max-width: 50%;
+    max-height: 50%;
+  }
+  
